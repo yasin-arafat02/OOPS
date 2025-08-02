@@ -11,12 +11,12 @@ class nagadPayment extends ridePayment{
 }
 class bkashPayment extends ridePayment{
     void payment (double amount){
-        System.out.printf("Paid %.2f Taka using Nagad\n",amount);
+        System.out.printf("Paid %.2f Taka using bkash\n",amount);
     }
 }
 class CashPayemnt extends ridePayment{
     void payment (double amount){
-        System.out.printf("Paid %.2f Taka using Nagad\n",amount);
+        System.out.printf("Paid %.2f Taka using cash\n",amount);
     }
 }
 public class RideSharingPayment {
