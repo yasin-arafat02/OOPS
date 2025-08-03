@@ -27,5 +27,9 @@ public class FoodPandaAbstract {
         f = new MobilePay();
         f.pay(price);
         f.ConfirmOrder(food);
+
+        f= new CashOnDelivery();
+        f.pay(price);
+        f.ConfirmOrder(food);
     }
 }
